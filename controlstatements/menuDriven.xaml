@@ -70,7 +70,7 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Flowchart sap:VirtualizedContainerService.HintSize="634,637" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+    <Flowchart sap:VirtualizedContainerService.HintSize="694,637" sap2010:WorkflowViewState.IdRef="Flowchart_1">
       <Flowchart.Variables>
         <Variable x:TypeArguments="x:String" Name="ch" />
         <Variable x:TypeArguments="x:Int32" Name="y" />
@@ -84,6 +84,7 @@
           <av:Point x:Key="ShapeLocation">270,2.5</av:Point>
           <av:Size x:Key="ShapeSize">60,75</av:Size>
           <av:PointCollection x:Key="ConnectorLocation">300,77.5 300,127.5</av:PointCollection>
+          <x:Double x:Key="Width">660</x:Double>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
       <Flowchart.StartNode>
@@ -110,7 +111,7 @@
           </ui:InputDialog>
         </Sequence>
         <FlowStep.Next>
-          <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID0" DisplayName="Flow Switch" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_2">
+          <FlowSwitch x:TypeArguments="x:String" x:Name="__ReferenceID0" DisplayName="Flow Switch" Expression="[ch]" sap:VirtualizedContainerService.HintSize="70,87" sap2010:WorkflowViewState.IdRef="FlowSwitch`1_2">
             <FlowSwitch.Default>
               <FlowStep x:Name="__ReferenceID4">
                 <sap:WorkflowViewStateService.ViewState>
@@ -129,23 +130,20 @@
                 </Sequence>
               </FlowStep>
             </FlowSwitch.Default>
-            <FlowSwitch.Expression>
-              <VisualBasicValue x:TypeArguments="x:String" ExpressionText="ch" />
-            </FlowSwitch.Expression>
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <av:Point x:Key="ShapeLocation">265,236.50000000000003</av:Point>
                 <av:Size x:Key="ShapeSize">70,87</av:Size>
                 <av:PointCollection x:Key="Default">317.5,323.5 317.5,353.5 470,353.5 470,399.5</av:PointCollection>
-                <av:PointCollection x:Key="Odd or EvenConnector">265,280 235,280 235,290 210,290</av:PointCollection>
-                <av:PointCollection x:Key="TemperatureConnector">335,280 365,280 365,290 400,290</av:PointCollection>
+                <av:PointCollection x:Key="Odd or EvenConnector">265,280 235,280 235,260 200,260</av:PointCollection>
+                <av:PointCollection x:Key="TemperatureConnector">335,280 460,280</av:PointCollection>
                 <av:PointCollection x:Key="Print nosConnector">282.5,323.5 282.5,353.5 110,353.5 110,399.5</av:PointCollection>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
             <FlowStep x:Key="Temperature" x:Name="__ReferenceID2">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">400,249.50000000000003</av:Point>
+                  <av:Point x:Key="ShapeLocation">460,239.5</av:Point>
                   <av:Size x:Key="ShapeSize">200,81</av:Size>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
@@ -208,7 +206,7 @@
                           <InArgument x:TypeArguments="x:Int32">1</InArgument>
                         </Assign.Value>
                       </Assign>
-                      <ui:InterruptibleWhile CurrentIndex="{x:Null}" DisplayName="While" sap:VirtualizedContainerService.HintSize="532,484" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
+                      <ui:InterruptibleWhile CurrentIndex="{x:Null}" Condition="[i&lt;=a]" DisplayName="While" sap:VirtualizedContainerService.HintSize="532,484" sap2010:WorkflowViewState.IdRef="InterruptibleWhile_1">
                         <ui:InterruptibleWhile.Body>
                           <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="496,318" sap2010:WorkflowViewState.IdRef="Sequence_9">
                             <sap:WorkflowViewStateService.ViewState>
@@ -227,9 +225,6 @@
                             </Assign>
                           </Sequence>
                         </ui:InterruptibleWhile.Body>
-                        <ui:InterruptibleWhile.Condition>
-                          <VisualBasicValue x:TypeArguments="x:Boolean" ExpressionText="i&lt;=a" />
-                        </ui:InterruptibleWhile.Condition>
                       </ui:InterruptibleWhile>
                     </Sequence>
                   </If.Then>
@@ -249,7 +244,7 @@
             <FlowStep x:Key="Odd or Even" x:Name="__ReferenceID1">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                  <av:Point x:Key="ShapeLocation">10,249.5</av:Point>
+                  <av:Point x:Key="ShapeLocation">0,219.49999999999997</av:Point>
                   <av:Size x:Key="ShapeSize">200,81</av:Size>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
