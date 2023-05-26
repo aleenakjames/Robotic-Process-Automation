@@ -43,6 +43,17 @@
       "ArgumentsSectionElementsOrder": null,
       "ConstantsSectionElementsOrder": null,
       "AddedNamespaces": null
+    },
+    {
+      "Path": "pathPrinting.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "y&Sequence_1",
+        "x&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
