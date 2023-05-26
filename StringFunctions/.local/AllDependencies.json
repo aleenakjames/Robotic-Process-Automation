@@ -21263,11 +21263,11 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "BlankProcess",
-      "projectName": "BlankProcess",
-      "projectPath": "C:\\Users\\Student\\Documents\\UiPath\\BlankProcess\\.local",
+      "projectUniqueName": "DateTime",
+      "projectName": "DateTime",
+      "projectPath": "C:\\Users\\Student\\Documents\\UiPath\\StringFunctions\\.local",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Student\\Documents\\UiPath\\BlankProcess\\.local"
+      "outputPath": "C:\\Users\\Student\\Documents\\UiPath\\StringFunctions\\.local"
     },
     "frameworks": {
       "net6.0-windows7.0": {
