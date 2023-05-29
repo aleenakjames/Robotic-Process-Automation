@@ -1,0 +1,50 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Main.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "y&Sequence_1",
+        "k&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "extractEmail.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "y&Sequence_1",
+        "k&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "dataTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "z&Sequence_1",
+        "input2&Sequence_1",
+        "input1&Sequence_1",
+        "otable&Sequence_1",
+        "i&Sequence_1",
+        "a&Sequence_1",
+        "table&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    }
+  ]
+}
