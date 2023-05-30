@@ -45,6 +45,44 @@
       "ArgumentsSectionElementsOrder": [],
       "ConstantsSectionElementsOrder": [],
       "AddedNamespaces": null
+    },
+    {
+      "Path": "multipleTable.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "otable&Sequence_1",
+        "table&Sequence_1",
+        "table2&Sequence_1",
+        "table1&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "datatableOperations.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "z&Sequence_1",
+        "y&Sequence_1",
+        "x&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "DataScraping.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ExtractDataTable&Sequence_13",
+        "Password&Sequence_12",
+        "pass&Sequence_1",
+        "email&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [],
+      "ConstantsSectionElementsOrder": [],
+      "AddedNamespaces": null
     }
   ]
 }
